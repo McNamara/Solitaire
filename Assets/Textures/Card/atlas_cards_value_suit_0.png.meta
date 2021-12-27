@@ -1,0 +1,1395 @@
+fileFormatVersion: 2
+guid: 68abdce827c1caf4f8b81b8e023d668c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5222527008628018385
+    second: atlas_cards_C2
+  - first:
+      213: -7445713839268094304
+    second: atlas_cards_C3
+  - first:
+      213: 2994822098081637882
+    second: atlas_cards_C4
+  - first:
+      213: -9023445056843856894
+    second: atlas_cards_C5
+  - first:
+      213: 2671106381048769937
+    second: atlas_cards_C6
+  - first:
+      213: 1617312226322525466
+    second: atlas_cards_C8
+  - first:
+      213: -2554190321748737710
+    second: atlas_cards_C9
+  - first:
+      213: 346445680161592807
+    second: atlas_cards_C10
+  - first:
+      213: -8418020430883790098
+    second: atlas_cards_CJ
+  - first:
+      213: 4642325685552779291
+    second: atlas_cards_CQ
+  - first:
+      213: -2604906681995379308
+    second: atlas_cards_CK
+  - first:
+      213: 4064457111234992068
+    second: atlas_cards_CA
+  - first:
+      213: 8233129498518165058
+    second: atlas_cards_D2
+  - first:
+      213: 727680957713286086
+    second: atlas_cards_D3
+  - first:
+      213: -8403929896412102582
+    second: atlas_cards_D4
+  - first:
+      213: -5072445613072454081
+    second: atlas_cards_D5
+  - first:
+      213: 3921721204995416603
+    second: atlas_cards_D6
+  - first:
+      213: 4485467602139579988
+    second: atlas_cards_D7
+  - first:
+      213: 3247940770256623675
+    second: atlas_cards_D8
+  - first:
+      213: 3951566577513724363
+    second: atlas_cards_D9
+  - first:
+      213: -1018833272701064555
+    second: atlas_cards_D10
+  - first:
+      213: 2802241282531576995
+    second: atlas_cards_DJ
+  - first:
+      213: -9134446488035451424
+    second: atlas_cards_DQ
+  - first:
+      213: -5792746395102194508
+    second: atlas_cards_DK
+  - first:
+      213: 3545840570975173084
+    second: atlas_cards_H2
+  - first:
+      213: -1249006553884665557
+    second: atlas_cards_H3
+  - first:
+      213: 7247169745340910338
+    second: atlas_cards_H4
+  - first:
+      213: -2611771245778641415
+    second: atlas_cards_H5
+  - first:
+      213: 5915912951211012069
+    second: atlas_cards_H6
+  - first:
+      213: -5646615006615208871
+    second: atlas_cards_H8
+  - first:
+      213: 831918827849665313
+    second: atlas_cards_H9
+  - first:
+      213: -3875506810916122949
+    second: atlas_cards_HJ
+  - first:
+      213: 2081083269118377170
+    second: atlas_cards_HQ
+  - first:
+      213: -3284950374999515873
+    second: atlas_cards_HK
+  - first:
+      213: -744179041660286821
+    second: atlas_cards_HA
+  - first:
+      213: -647325143474857270
+    second: atlas_cards_S2
+  - first:
+      213: -8547445316954964225
+    second: atlas_cards_S3
+  - first:
+      213: -5986737401302604833
+    second: atlas_cards_S4
+  - first:
+      213: 1094825112334155478
+    second: atlas_cards_S5
+  - first:
+      213: -2723142107947660118
+    second: atlas_cards_S6
+  - first:
+      213: 3962551683073271078
+    second: atlas_cards_S7
+  - first:
+      213: 6951505055394226976
+    second: atlas_cards_S8
+  - first:
+      213: 4665520564767629391
+    second: atlas_cards_S9
+  - first:
+      213: 3707029437192148778
+    second: atlas_cards_S10
+  - first:
+      213: -2311029954357683840
+    second: atlas_cards_SJ
+  - first:
+      213: 7729274289792728041
+    second: atlas_cards_SQ
+  - first:
+      213: 4340014373368000981
+    second: atlas_cards_SK
+  - first:
+      213: 182133382170668388
+    second: atlas_cards_SA
+  - first:
+      213: 418637261897930804
+    second: atlas_cards_value_suit_0_48
+  - first:
+      213: -8367982774240656443
+    second: atlas_cards_H7
+  - first:
+      213: -3531028375437241392
+    second: atlas_cards_C7
+  - first:
+      213: -8148220688327002938
+    second: atlas_cards_DA
+  - first:
+      213: -5467163548607750360
+    second: atlas_cards_H10
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: atlas_cards_C2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 840
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc082be4a42a7840800000000000000
+      internalID: 5222527008628018385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_C3
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 840
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae173756b28ba890800000000000000
+      internalID: -7445713839268094304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_C4
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 840
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af565a9b4debf8920800000000000000
+      internalID: 2994822098081637882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_C5
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 840
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2044190778846c280800000000000000
+      internalID: -9023445056843856894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_C6
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 840
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19de0b7f91da11520800000000000000
+      internalID: 2671106381048769937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_C8
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 840
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1da9d4a6e8d17610800000000000000
+      internalID: 1617312226322525466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_C9
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 840
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2510d6f5f61bd8cd0800000000000000
+      internalID: -2554190321748737710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_C10
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 840
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e51004b282dec400800000000000000
+      internalID: 346445680161592807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_CJ
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 840
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2e039c40f2d2b80800000000000000
+      internalID: -8418020430883790098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_CQ
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 840
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b109b0b6d9adc6040800000000000000
+      internalID: 4642325685552779291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_CK
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 840
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49dbf929c2389dbd0800000000000000
+      internalID: -2604906681995379308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_CA
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 840
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7d8ff453ad76830800000000000000
+      internalID: 4064457111234992068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_D2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 560
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24617fc68a3f14270800000000000000
+      internalID: 8233129498518165058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_D3
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 560
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c30152c9fd391a00800000000000000
+      internalID: 727680957713286086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_D4
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 560
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40421ff84e3f5b80800000000000000
+      internalID: -8403929896412102582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_D5
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 560
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ee352079d0b99b0800000000000000
+      internalID: -5072445613072454081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_D6
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 560
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b126ed368a0cc6630800000000000000
+      internalID: 3921721204995416603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_D7
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 560
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4568d05e4059f3e30800000000000000
+      internalID: 4485467602139579988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_D8
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 560
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3897a61ce0031d20800000000000000
+      internalID: 3247940770256623675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_D9
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 560
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9f20fadd8c6d630800000000000000
+      internalID: 3951566577513724363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_D10
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 560
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59aed4759806cd1f0800000000000000
+      internalID: -1018833272701064555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_DJ
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 560
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3acca3c799f83e620800000000000000
+      internalID: 2802241282531576995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_DQ
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 560
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed15d4c05deb3180800000000000000
+      internalID: -9134446488035451424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_DK
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 560
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4520e48d70c9fa0800000000000000
+      internalID: -5792746395102194508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_H2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 280
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9b42f663b553130800000000000000
+      internalID: 3545840570975173084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_H3
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 280
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29d1912823aaaee0800000000000000
+      internalID: -1249006553884665557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_H4
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 280
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20bc00a7c7e139460800000000000000
+      internalID: 7247169745340910338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_H5
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 280
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fdd8c4c3ef11cbd0800000000000000
+      internalID: -2611771245778641415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_H6
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 280
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5efa01b3c7b891250800000000000000
+      internalID: 5915912951211012069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_H8
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 280
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c7f4b819133a1b0800000000000000
+      internalID: -5646615006615208871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_H9
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 280
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b40f724c19b8b00800000000000000
+      internalID: 831918827849665313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_HJ
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 280
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbeccbab61f673ac0800000000000000
+      internalID: -3875506810916122949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_HQ
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 280
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc3fcb053e71ec10800000000000000
+      internalID: 2081083269118377170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_HK
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 280
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d1e51d9038962d0800000000000000
+      internalID: -3284950374999515873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_HA
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 280
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b984c8cba152ca5f0800000000000000
+      internalID: -744179041660286821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_S2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca9001363d3407f0800000000000000
+      internalID: -647325143474857270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_S3
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffeb2d145cf516980800000000000000
+      internalID: -8547445316954964225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_S4
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd320d77d06daeca0800000000000000
+      internalID: -5986737401302604833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_S5
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 0
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6debad793a9913f00800000000000000
+      internalID: 1094825112334155478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_S6
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac0fde3ea4753ad0800000000000000
+      internalID: -2723142107947660118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_S7
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62565b1e2cfcdf630800000000000000
+      internalID: 3962551683073271078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_S8
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 0
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023ea196405b87060800000000000000
+      internalID: 6951505055394226976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_S9
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 0
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4021431c324fb040800000000000000
+      internalID: 4665520564767629391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_S10
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2711c7e1a3027330800000000000000
+      internalID: 3707029437192148778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_SJ
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 0
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089193930829defd0800000000000000
+      internalID: -2311029954357683840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_SQ
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ebb7aed306e34b60800000000000000
+      internalID: 7729274289792728041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_SK
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 0
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d170b40414da3c30800000000000000
+      internalID: 4340014373368000981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_SA
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 0
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46de50a9851178200800000000000000
+      internalID: 182133382170668388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_H7
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 280
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c34cc69004fedb80800000000000000
+      internalID: -8367982774240656443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_C7
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 840
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d31d3696644ffec0800000000000000
+      internalID: -3531028375437241392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_DA
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 560
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4b7c08474bbee80800000000000000
+      internalID: -8148220688327002938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_cards_H10
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 280
+        width: 180
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f554408bbb024b0800000000000000
+      internalID: -5467163548607750360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 2b43c17e43c8def4ca176f6e8866c5c6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
