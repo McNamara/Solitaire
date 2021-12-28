@@ -11,64 +11,12 @@ namespace Card.Controller
         public override void OnClick(PlayingCardModel cardModel)
         {
             if (cardModel.IsItPivot)
-                PlayAsPivotCard(cardModel);
-            
-            if (cardModel.IsInHand)
-            {
-                if(IsCardCanBeMovedFromHandToPivot(cardModel))
-                {
-                    PlayAsHandCard(cardModel);
-                }
-            }
-            
-            if (cardModel.CardBlockers.Count == 0)
-            {
-                PlayAsBoardCard(cardModel);
-            }
-        }
-
-
-        private void PlayAsPivotCard(PlayingCardModel cardModel) 
-        {
-            // if IsCardCanDestroyBarrier (cardModel)
-            // PlayCardToBarrier => hide this card
-            // remove barier
-        }
-        private void  PlayAsHandCard(PlayingCardModel cardModel)
-        {
-            RemoveBlocked(cardModel, cardModel.CardId);
-            //cuz after PlayToPivotDataState PivotCard will be different.We need deactivate previous PivotCard collider.
-            DeckController.Instance.PivotCard.CardView.DeActivatePivotBoxCollider();
-            PlayToPivot(cardModel);
-            cardModel.IsInHand = false;
-            var cardBlocking = cardModel.CardBlocking;
-            if (cardBlocking.Count!=0)
-                cardModel.CardView.SetActiveNextCardBoxColliderInHand(cardBlocking[0]);
+                PlayFromPivot(cardModel);
+            else if (cardModel.IsInHand)
+                PlayFromHand(cardModel);
             else
-            {
-                DeckController.Instance.isHandIsEmpty = true;
-                DeckController.Instance.CheckForEndLevelConditions();
-            }
-            // TODO INVOKE NEXT TURN ACTIONS for arrows
+                PlayFromBoard(cardModel);
         }
-        private void  PlayAsBoardCard(PlayingCardModel cardModel)
-        {
-            if (IsCardCanBeMovedFromBoardToPivot(cardModel))
-            {
-                //cuz after PlayToPivotDataState PivotCard will be different.We need deactivate previous PivotCard collider.
-                DeckController.Instance.PivotCard.CardView.DeActivatePivotBoxCollider();
-                PlayToPivot(cardModel);
-                RemoveBlocking(cardModel);
-                if(DeckController.Instance.isHandIsEmpty)
-                    DeckController.Instance.CheckForEndLevelConditions();
-                // TODO INVOKE NEXT TURN ACTIONS for arrows
-            }
-        }
-        
-        
-        
-        
-
         public override void OnClickDataState(PlayingCardModel cardModel)
         {
             if(cardModel.IsItPivot)
@@ -78,14 +26,62 @@ namespace Card.Controller
             if (cardModel.CardBlockers.Count == 0)
                 return;
         }
+
+        
+        private void PlayFromPivot(PlayingCardModel cardModel) 
+        {
+            // if IsCardCanDestroyBarrier (cardModel)
+            // PlayCardToBarrier => hide this card
+            // remove barier
+        }
+        private void PlayFromPivotDataState(PlayingCardModel cardModel){}
+        private void PlayFromPivotViewaState(PlayingCardModel cardModel){}
+
+        
+        private void PlayFromHand(PlayingCardModel cardModel)
+        {
+            if(IsCardCanBeMovedFromHandToPivot(cardModel))
+            {
+                RemoveBlocked(cardModel, cardModel.CardId);
+                //cuz after PlayToPivotDataState PivotCard will be different.We need deactivate previous PivotCard collider.
+                DeckController.Instance.PivotCard.CardView.DeActivatePivotBoxCollider();
+                PlayToPivot(cardModel);
+                cardModel.IsInHand = false;
+                var cardBlocking = cardModel.CardBlocking;
+                if (cardBlocking.Count!=0)
+                    cardModel.CardView.SetActiveNextCardBoxColliderInHand(cardBlocking[0]);
+                else
+                {
+                    DeckController.Instance.isHandIsEmpty = true;
+                    DeckController.Instance.CheckForEndLevelConditions();
+                }
+                // TODO INVOKE NEXT TURN ACTIONS for arrows
+            }
+        }
+        private void PlayFromHandDataState(PlayingCardModel cardModel){}
+        private void PlayFromHandViewState(PlayingCardModel cardModel){}
+        
+        
+        private void  PlayFromBoard(PlayingCardModel cardModel)
+        {
+            if (cardModel.CardBlockers.Count == 0)
+                if (IsBoardCardMatchToPivot(cardModel))
+                {
+                    //cuz after PlayToPivotDataState PivotCard will be different.We need deactivate previous PivotCard collider.
+                    DeckController.Instance.PivotCard.CardView.DeActivatePivotBoxCollider();
+                    PlayToPivot(cardModel);
+                    RemoveBlocking(cardModel);
+                    if(DeckController.Instance.isHandIsEmpty)
+                        DeckController.Instance.CheckForEndLevelConditions();
+                    // TODO INVOKE NEXT TURN ACTIONS for arrows
+                }
+        }
+        private void  PlayFromBoardDataState(PlayingCardModel cardModel){}
+        private void  PlayFromBoardViewState(PlayingCardModel cardModel){}
         
         
         
-        
-        
-        public override bool IsCardCanBeMovedFromHandToPivot(PlayingCardModel cardModel) {return true;}
-        
-        public override bool IsCardCanBeMovedFromBoardToPivot(PlayingCardModel cardModel)
+        public override bool IsBoardCardMatchToPivot(PlayingCardModel cardModel)
         {
             int cardRank = (int) cardModel.CardRank;
             int pivotRank = (int) DeckController.Instance.PivotCard.CardRank;
@@ -96,17 +92,17 @@ namespace Card.Controller
                 return true;
             return false;
         }
-        
+        public override bool IsCardCanBeMovedFromHandToPivot(PlayingCardModel cardModel) {return true;}
         public override bool IsCardCanDestroyBarrier(PlayingCardModel cardModel) {return false;}
         
         
         
         public override void Open(PlayingCardModel cardModel)
         {
-            SetDataToOpenState(cardModel);
-            SetViewToOpenState(cardModel);
+            OpenDataState(cardModel);
+            OpenViewState(cardModel);
         }
-        public override void SetDataToOpenState(PlayingCardModel cardModel)
+        public override void OpenDataState(PlayingCardModel cardModel)
         {
             if (cardModel.CardRank != CardRanks.None && cardModel.CardSuit != CardSuits.None)
                 // Moved to constructor to prevent situation when Value this card will be taken before Open
@@ -127,7 +123,7 @@ namespace Card.Controller
             newSuit = (CardSuits) value[1];
             return (CardRanks) value[0];
         }
-        public override void SetViewToOpenState(PlayingCardModel cardModel)
+        private void OpenViewState(PlayingCardModel cardModel)
         {
             cardModel.CardView.UpdateViewValueAccordingData(cardModel);
             cardModel.CardView.RotateCardToOpenState(cardModel);
@@ -160,7 +156,7 @@ namespace Card.Controller
             cardModel.CardLayer = pivotCard.CardLayer + 1;
             cardModel.IsItPivot = true;
         }
-        public override void PlayToPivotViewState(PlayingCardModel cardModel)
+        private void PlayToPivotViewState(PlayingCardModel cardModel)
         {
             cardModel.CardView.UpdateViewPositionAngleLayerAccordingData(cardModel);
         }
@@ -175,6 +171,11 @@ namespace Card.Controller
         /// </summary>
         public override void RemoveBlocking(PlayingCardModel cardModel)
         {
+            RemoveBlockingDataState(cardModel);
+            RemoveBlockingViewState(cardModel);
+        }
+        public override void RemoveBlockingDataState(PlayingCardModel cardModel)
+        {
             GenericDictionary listToRemove;
             if (cardModel.IsInHand)
                 listToRemove = DeckController.Instance.HandCards;
@@ -184,8 +185,12 @@ namespace Card.Controller
             for (int i = 0; i < cardModel.CardBlocking.Count; i++)
             {
                 var card = listToRemove.GetClassModel(cardModel.CardBlocking[i]);
-                card.CardController.RemoveBlocked(card, cardModel.CardId);
+                card.CardController.RemoveBlockedDataState(card, cardModel.CardId);
             }
+        }
+        private void RemoveBlockingViewState(PlayingCardModel cardModel)
+        {
+            RemoveBlockedViewState(cardModel);
         }
         
         
@@ -204,12 +209,12 @@ namespace Card.Controller
             cardBlockers.Remove(value);
             
             if (cardBlockers.Count == 0)
-                cardModel.CardController.SetDataToOpenState(cardModel);
+                cardModel.CardController.OpenDataState(cardModel);
         }
         private void RemoveBlockedViewState(PlayingCardModel cardModel)
         {
             if (cardModel.CardBlockers.Count == 0)
-                cardModel.CardController.SetViewToOpenState(cardModel);
+                cardModel.CardController.OpenViewState(cardModel);
         }
     }
 }
