@@ -35,7 +35,7 @@ namespace Card.Controller
             // remove barier
         }
         private void PlayFromPivotDataState(PlayingCardModel cardModel){}
-        private void PlayFromPivotViewaState(PlayingCardModel cardModel){}
+        private void PlayFromPivotViewState(PlayingCardModel cardModel){}
 
         
         private void PlayFromHand(PlayingCardModel cardModel)
